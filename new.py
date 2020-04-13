@@ -63,29 +63,5 @@ if __name__ == '__main__':
     app.run()
     
     
-
-'''
-                                    
-                                    WORKING CODE
-                                    # Set up the main route
-                                    @app.route('/', methods=['GET', 'POST'])
-                                    
-                                    def main():
-                                        if flask.request.method == 'GET':
-                                            return(flask.render_template('index.html'))
-                                                
-                                        if flask.request.method == 'POST':
-                                            m_name = flask.request.form['course']
-                                            
-                                            result_final = get_recommendation(m_name)
-                                            print("Got Recoo")         
-                                    
-                                            return flask.render_template('index.html',prediction_text ='Next Recommended Courses are ${}'.format(result_final))
-                                    
-                                    if __name__ == '__main__':
-                                        app.run()
-                                        
-                                    '''    
-                                    
-                                    
-                                    # Set up the main route
+                               
+                                   
